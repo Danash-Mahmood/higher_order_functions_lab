@@ -124,7 +124,9 @@ describe('ScranAdvisor', () => {
 
     // Extensions
 
-    test.skip('can find the most common cuisine type', () => {
+    test('can find the most common cuisine type', () => {
+
+      scranAdvisor.findCommonCuisine();
 
     })
 
